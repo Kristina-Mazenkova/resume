@@ -9,9 +9,11 @@
     background-color: antiquewhite;
     color:grey
 }
+
 @media (max-width: 650px) {
     .body {
         width:auto;
+        /* background-image:url(https://klike.net/uploads/posts/2023-02/1675842942_3-315.jpg); */
     }
 }
 h1 {
@@ -37,6 +39,8 @@ h1 {
     }
     .card01 {
         border-left: none;
+        padding:0;
+        margin: 0;   
     }
 }
 .name1 {
@@ -160,4 +164,5 @@ a:visited {
     .form-row .form-group {
         margin-right: 0;
         width: 100%;
+}
 }
